@@ -733,13 +733,13 @@ do
     local licenseScope
 local MasterLicenseConfig = {
     -- VAWZEN panel - ONE endpoint only.  Login and heartbeat both use it.
-    url = 'https://vipgfx.in/VAWZEN/connect',
+    url = 'https://vipgfx.in/PBC/connect',
     game = 'pubg',
     timeout = 15, clockSkew = 300, expiryPath = nil,
     manualExpiry = "2028-12-31 23:59:59", tamperTolerance = 5,
     secret = 'VAWZEN',
     -- Same panel, periodic liveness re-check after login.
-    heartbeat = 'https://vipgfx.in/VAWZEN/connect',
+    heartbeat = 'https://vipgfx.in/PBC/connect',
     heartbeatInterval = 300,   -- seconds between heartbeat pings
     heartbeatTimeout  = 10,    -- seconds before a ping counts as failed
 }
